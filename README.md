@@ -1,5 +1,5 @@
 # Checkout private actions
-![](https://img.shields.io/badge/github--action-1.0.1-green)
+![](https://img.shields.io/badge/github--action-1.0.2-green)
 
 GitHub action to checkout private actions.
 
@@ -85,4 +85,4 @@ Directory where action repositories will be cloned.
 
 
 ## About
-This action was **automatically generated** on **Tue, 01 Sep 2020 15:32:21 GMT**
+This action was **automatically generated** on **Thu, 10 Sep 2020 10:49:18 GMT**
