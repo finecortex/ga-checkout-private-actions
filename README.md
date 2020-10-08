@@ -1,5 +1,5 @@
 # Checkout private actions
-![](https://img.shields.io/badge/github--action-1.0.2-green)
+![](https://img.shields.io/badge/github--action-1.0.3-green)
 
 GitHub action to checkout private actions.
 
@@ -7,9 +7,9 @@ GitHub action to checkout private actions.
 
 - [Usage](#usage)
 - [Inputs](#inputs)
-  - [`token`](#token)
   - [`actions`](#actions)
   - [`directory`](#directory)
+  - [`token`](#token)
 - [About](#about)
 
 
@@ -54,16 +54,6 @@ jobs:
 ```
 ## Inputs
 
-### `token`
-
-Repository PAT (personal access token) or GITHUB_TOKEN.
-
-**Type**: `string`
-
-⚠️ **Required**
-
----
-
 ### `actions`
 
 List of private actions to clone. Must be an array where each entry matches "owner/repo@ref" format.
@@ -82,7 +72,17 @@ Directory where action repositories will be cloned.
 
 **Default**: `./.github/actions`
 
+---
+
+### `token`
+
+Repository PAT (personal access token) or GITHUB_TOKEN.
+
+**Type**: `string`
+
+⚠️ **Required**
+
 
 
 ## About
-This action was **automatically generated** on **Thu, 10 Sep 2020 10:49:18 GMT**
+This action was **automatically generated**

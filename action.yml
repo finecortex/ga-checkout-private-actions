@@ -4,15 +4,15 @@ runs:
   using: node12
   main: index.js
 inputs:
-  token:
-    description: Repository PAT (personal access token) or GITHUB_TOKEN.
-    required: true
-
   actions:
     description: List of private actions to clone. Must be an array where each entry matches "owner/repo@ref" format.
     required: true
 
   directory:
     description: Directory where action repositories will be cloned.
-    default: ./.github/actions
+    default: "./.github/actions"
+
+  token:
+    description: Repository PAT (personal access token) or GITHUB_TOKEN.
+    required: true
 
