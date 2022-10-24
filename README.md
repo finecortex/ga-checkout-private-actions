@@ -1,5 +1,5 @@
 # Checkout private actions
-![](https://img.shields.io/badge/github--action-1.0.3-green)
+![](https://img.shields.io/badge/github--action-2.0.0-green)
 
 GitHub action to checkout private actions.
 
@@ -25,7 +25,7 @@ jobs:
     # ----------------------------------------------------------------------------
     #  Checkout private actions
     # ----------------------------------------------------------------------------
-    - uses: finecortex/ga-checkout-private-actions@v1
+    - uses: finecortex/ga-checkout-private-actions@v2
       with:
         # Repository PAT (personal access token) or GITHUB_TOKEN.
         # Type: string

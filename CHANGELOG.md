@@ -1,7 +1,13 @@
 # Changelog
 
+## 2.0.0
+Mon, 24 Oct 2022 10:23:41 GMT
+
+### Breaking changes
+- Upgrade to Node.js 16
+
 ## 1.0.3
-Thu, 08 Oct 2020 15:37:53 GMT
+Thu, 08 Oct 2020 15:37:55 GMT
 
 ### Fixes
 - Updated "@actions/core" dependency from `v1.2.4` to `v1.2.6` due to a [security vulnerability](https://github.blog/changelog/2020-10-01-github-actions-deprecating-set-env-and-add-path-commands/)
